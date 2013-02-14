@@ -10,7 +10,7 @@ function cegeka_suggestion_profiles_suggestions_profile_info() {
   $profiles = array();
 
   $profiles['production'] = array(
-    'title' => t('Telenet - Production'),
+    'title' => t('Cegeka - Production'),
     'description' => t('Suggestions which can be helpful on a production environment.'),
     'suggestions callback' => 'cegeka_suggestion_profiles_production_suggestions',
     'file' => 'production_profile.inc',
@@ -18,7 +18,7 @@ function cegeka_suggestion_profiles_suggestions_profile_info() {
   );
 
   $profiles['development'] = array(
-    'title' => t('Telenet - Development'),
+    'title' => t('Cegeka - Development'),
     'description' => t('Suggestions which can be helpful on a development environment.'),
     'suggestions callback' => 'cegeka_suggestion_profiles_development_suggestions',
     'file' => 'development_profile.inc',
@@ -26,7 +26,7 @@ function cegeka_suggestion_profiles_suggestions_profile_info() {
   );
 
   $profiles['general'] = array(
-    'title' => t('Telenet - General'),
+    'title' => t('Cegeka - General'),
     'description' => t('General suggestions.'),
     'suggestions callback' => 'cegeka_suggestion_profiles_general_suggestions',
     'file' => 'general_profile.inc',
